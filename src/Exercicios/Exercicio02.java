@@ -1,10 +1,10 @@
 package Exercicios;
 
 public class Exercicio02 {
-	private int valueA = 1900;
-	private int valueB = 2000;
+	private static int valueA = 1900;
+	private static int valueB = 2000;
 
-	public void execute() {
+	public static void execute() {
 		System.out.println("Add -> " + (valueA + valueB));
 		System.out.println("Sub -> " + (valueA - valueB));
 		System.out.println("Mul -> " + (valueA * valueB));

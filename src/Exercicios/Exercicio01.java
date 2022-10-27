@@ -2,7 +2,7 @@ package Exercicios;
 
 public class Exercicio01 {
 	
-	public void execute() {
+	public static void execute() {
 		System.out.println("");		
 		System.out.println("Eu meu chamo: " + "Thiago Sant'anna");
 		System.out.println("Minha filha se chama: " + "Sarah de Oliveira Sant'anna");
