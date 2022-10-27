@@ -8,7 +8,7 @@ public class Exercicio04 {
 		nome = "Thiago Sant'Anna";
 		emailp1 = "tss.webapps";
 		emailp2 = "gmail.com";
-		senha = "1020TRS";
+		senha = "1020@TRS";
 		
 		cpfp1 = 044;
 		cpfp2 = 906;
@@ -19,7 +19,7 @@ public class Exercicio04 {
 		System.out.println("Nome: " + nome);
 		System.out.println("CPF: "+cpfp1+"."+cpfp2+"."+cpfp3+"-"+cpfp4);
 		System.out.println("Email: " + emailp1+"@"+emailp2);
-		System.out.println("Senha: " + senha.replaceAll("[A-Za-z0-9]", "*"));
+		System.out.println("Senha: " + senha.replaceAll("[@#$%&*A-Za-z0-9]", "*"));
 		System.out.println("###########################");	
 
 	}
